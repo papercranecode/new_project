@@ -1,4 +1,42 @@
-img {
-    height: 500px;
-    width: auto;
+body {
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    font-family: arial, sans-serif; 
+    color: white;
+    background: black;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    background: salmon;
+    position: sticky;
+}
+
+h1 {
+    float: center;
+}
+
+nav ul li {
+    display:inline-block;
+    vertical-align: top;
+}
+
+nav a {
+    text-decoration-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.container img {
+    max-width:30%;
+    max-height:30%;
 }
