@@ -7,6 +7,7 @@ header {
     font-family: arial, sans-serif; 
     color: white;
     background: black;
+    text-align: center;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     list-style-type: none;
     background: salmon;
@@ -31,19 +32,48 @@ h1 {
 nav ul li {
     display:inline-block;
     vertical-align: top;
+    margin: 0 40px;
 }
 
 nav a {
     text-decoration-style: none;
     text-decoration: none;
     color: black;
+    display: block;
 }
 
 nav a:hover {
     color: white;
 }
 
-.container img {
-    max-width:30%;
-    max-height:30%;
+.text-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1vw;
+    padding: 2vw;
+}
+
+.container {
+    width: 1600px;
+}
+
+img {
+    width:100%; 
+    height:100%; 
+    object-fit:none;
+  }
+
+footer {
+    text-align: center;
+}
+
+.quack {
+    font-size: 10em;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: bolder;
+}
+
+.quack:hover {
+    color: green;
 }
