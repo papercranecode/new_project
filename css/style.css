@@ -9,8 +9,13 @@ header {
     background: black;
 }
 
+h1 {
+    text-align: center;
+}
+
 nav {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
     list-style-type: none;
     background: salmon;
@@ -33,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-    color: yellow;
+    color: white;
 }
 
 .container img {
