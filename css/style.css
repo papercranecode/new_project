@@ -76,8 +76,8 @@ img {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    display: block;
+    background: salmon;
 }
 
 .socials {
@@ -96,12 +96,12 @@ footer {
     height: 45px;
     width: 45px;
     display: block;
-    border: $colorFour;
+    border: salmon;
     border-radius: 50%;
     padding: 10px;
-    background: $colorFour;
+    background: salmon;
 }
 
 .socials img:hover {
-    background: $colorFive;
+    background: red;
 }
